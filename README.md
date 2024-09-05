@@ -1,6 +1,6 @@
 # Alpha-1 "Red-Right-Hand"
 
-A plugin that adds a new class to your server named "UIU Rescue Squad". Their job is helpping the NTF completing their task. They have a chance to spawn instead of a squad of NTF.
+A plugin that adds a new class to your server named "The Red Right Hand". Their job is to help the NTF retake the site, They have a rare chance of spawning unless specified otherwise. They have a chance to spawn instead of a squad of NTF.
 
 # Installation
 
