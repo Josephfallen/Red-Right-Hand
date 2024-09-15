@@ -15,7 +15,7 @@ namespace RRR
           public override string Author { get; } = "Jospeh_fallen";
           public override string Prefix { get; } = "Alpha-1 \"Red Right Hand\"";
           public override Version Version { get; } = new Version(5, 3, 2);
-          public override Version RequiredExiledVersion => new Version(8, 8, 0);
+          public override Version RequiredExiledVersion => new Version(8, 11, 0);
           
           public static RRR Instance;
 
@@ -30,6 +30,7 @@ namespace RRR
                Config.RRRPrivate.Register();
                Config.RRRSergeant.Register();
                Config.RRRLeader.Register();
+               Config.RRRAssistantCaptain.Register();
 
                eventHandlers = new();
 
@@ -42,9 +43,12 @@ namespace RRR
 
           public override void OnDisabled()
           {
-               CustomRole.UnregisterRoles();
+            Config.RRRPrivate.Unregister();
+            Config.RRRSergeant.Unregister();
+            Config.RRRLeader.Unregister();
+            Config.RRRAssistantCaptain.Unregister();
 
-               ServerEvent.RoundStarted -= eventHandlers.OnRoundStarted;
+            ServerEvent.RoundStarted -= eventHandlers.OnRoundStarted;
                ServerEvent.RespawningTeam -= eventHandlers.OnRespawningTeam;
                MapEvent.AnnouncingNtfEntrance -= eventHandlers.OnAnnouncingNtfEntrance;
 

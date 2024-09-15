@@ -10,7 +10,7 @@ namespace RRR.Roles
     [CustomRole(RoleTypeId.NtfCaptain)]
     public class RRRLeader : CustomRole
     {
-        public override uint Id { get; set; } = 3;
+        public override uint Id { get; set; } = 10;
         public override RoleTypeId Role { get; set; } = RoleTypeId.NtfCaptain;
         public override int MaxHealth { get; set; } = 175;
         public override string Name { get; set; } = "Alpha-1 Captain";

@@ -10,7 +10,7 @@ namespace RRR.Roles
     [CustomRole(RoleTypeId.NtfPrivate)]
     public class RRRPrivate : CustomRole
     {
-        public override uint Id { get; set; } = 1;
+        public override uint Id { get; set; } = 14;
         public override RoleTypeId Role { get; set; } = RoleTypeId.NtfPrivate;
         public override int MaxHealth { get; set; } = 125;
         public override string Name { get; set; } = "Alpha-1 Private";

@@ -10,7 +10,7 @@ namespace RRR.Roles
     [CustomRole(RoleTypeId.NtfSergeant)]
     public class RRRSergeant : CustomRole
     {
-        public override uint Id { get; set; } = 2;
+        public override uint Id { get; set; } = 11;
         public override RoleTypeId Role { get; set; } = RoleTypeId.NtfSergeant;
         public override int MaxHealth { get; set; } = 150;
         public override string Name { get; set; } = "Alpha-1 Sergeant";

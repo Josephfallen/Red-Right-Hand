@@ -35,10 +35,10 @@ namespace RRR.Configs
         public string CassieTextMtfNoSCPs { get; private set; } = "Mobile Task Force Unit Espilon 11, designated {designation} has entered the facility. All remaining personnel are advised to proceed with standard evaction protocols until a MTF squad reaches your destination. Substantial threat remains within the facility - exercise caution.";
 
         [Description("Cassie Text alpha 1 SCPs")]
-        public string CassieTextUiuSCPs { get; private set; } = "Mobile Task Force Unit Alpha-1 , designated {designation} has entered the facility. Awaiting recontainment of {scpnum}";
+        public string CassieTextUiuSCPs { get; private set; } = "Mobile Task Force Unit Alpha 1 , designated {designation} has entered the facility. Awaiting recontainment of {scpnum}";
 
         [Description("Cassie Text alpha 1 No SCPs")]
-        public string CassieTextUiuNoSCPs { get; private set; } = "Mobile Task Force Unit Alph1, designated {designation} has entered the facility. Substantial threat remains within the facility - exercise caution.";
+        public string CassieTextUiuNoSCPs { get; private set; } = "Mobile Task Force Unit Alpha 1, designated {designation} has entered the facility. Substantial threat remains within the facility - exercise caution.";
 
     }
 }

@@ -7,15 +7,15 @@ using System.Collections.Generic;
 
 namespace RRR.Roles
 {
-    [CustomRole(RoleTypeId.NtfCaptain)]
-    public class Alpha_1AssistantCaptian : CustomRole
+    [CustomRole(RoleTypeId.NtfSpecialist)]
+    public class RRRAssistantCaptain : CustomRole
     {
-        public override uint Id { get; set; } = 3;
-        public override RoleTypeId Role { get; set; } = RoleTypeId.NtfCaptain;
+        public override uint Id { get; set; } = 13;
+        public override RoleTypeId Role { get; set; } = RoleTypeId.NtfSpecialist;
         public override int MaxHealth { get; set; } = 175;
-        public override string Name { get; set; } = "Alpha-1 Assistant Captian";
+        public override string Name { get; set; } = "Alpha-1 Assistant Captain";
         public override string Description { get; set; } = "The 05 has ordered you to regain control of the site, Complete the mission";
-        public override string CustomInfo { get; set; } = "Alpha-1 Assistant Captian";
+        public override string CustomInfo { get; set; } = "Alpha-1 Assistant Captain";
         public override bool IgnoreSpawnSystem { get; set; } = true;
 
         public override List<string> Inventory { get; set; } = new()
@@ -38,7 +38,7 @@ namespace RRR.Roles
             {
                 new()
                 {
-                    Role = RoleTypeId.NtfCaptain,
+                    Role = RoleTypeId.NtfSergeant,
                     Chance = 100
                 }
             }

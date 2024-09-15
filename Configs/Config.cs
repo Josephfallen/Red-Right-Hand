@@ -21,8 +21,8 @@ namespace RRR.Configs
         [Description("Options for Alpha-1 Captain:")]
         public RRRLeader RRRLeader { get; private set; } = new RRRLeader();
 
-        [Description("Options for Alpha-1 Assistant Captian:")]
-        public RRRPrivate Alpha_1AssistantCaptian { get; private set; } = new RRRPrivate();
+        [Description("Options for Alpha-1 Assistant Captain:")]
+        public RRRAssistantCaptain RRRAssistantCaptain { get; private set; } = new RRRAssistantCaptain();
 
         [Description("Options for Alpha-1 Sergeant:")]
         public RRRSergeant RRRSergeant { get; private set; } = new RRRSergeant();

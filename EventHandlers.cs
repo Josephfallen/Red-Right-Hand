@@ -76,8 +76,8 @@ namespace RRR
                               case RoleTypeId.NtfPrivate:
                                    RRR.Instance.Config.RRRPrivate.AddRole(player);
                                    break;
-                            case RoleTypeId.NtfSpecialist:
-                                   RRR.Instance.Config.Alpha_1AssistantCaptian.AddRole(player);
+                              case RoleTypeId.NtfSpecialist:
+                                   RRR.Instance.Config.RRRAssistantCaptain.AddRole(player);
                                    break;
                          }
                     }
