@@ -2,8 +2,8 @@
 
 A plugin that adds a new class to your server named "The Red Right Hand". Their job is to help the NTF retake the site, They have a rare chance of spawning unless specified otherwise. They have a chance to spawn instead of a squad of NTF.
 
-> [!WARNING]
-> Will not work with respawn timer and UIU mod
+> [!NOTE]
+> Respawn Timer will not show when the Red Right Hand is spawning
 # Installation
 
 **[EXILED](https://github.com/Exiled-Team/EXILED) must be installed for this to work.**
