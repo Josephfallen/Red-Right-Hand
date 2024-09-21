@@ -12,7 +12,7 @@ namespace RRR
      {
 
           public override string Name { get; } = "Alpha-1 \"Red Right Hand\"";
-          public override string Author { get; } = "Jospeh_fallen";
+          public override string Author { get; } = "Joseph_fallen";
           public override string Prefix { get; } = "Alpha-1 \"Red Right Hand\"";
           public override Version Version { get; } = new Version(5, 3, 2);
           public override Version RequiredExiledVersion => new Version(8, 11, 0);
